@@ -1,8 +1,10 @@
 import './App.css';
 import Card from './components/card';
 
-export const App = () => (
+const App = () => (
   <>
     <Card />
   </>
 );
+
+export default App;
