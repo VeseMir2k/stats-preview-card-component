@@ -6,10 +6,12 @@ import { CardTitle } from './CardTitle';
 
 const Card = () => {
   const titleText = `Get <span class="text-red-800">insights</span> that help your business grow`;
+
   const descriptionText =
     'Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.';
+
   return (
-    <div>
+    <div className='bg-bgSecondary overflow-hidden rounded-[8px]'>
       <CardImage image={Image} />
       <div>
         <CardTitle text={titleText} />
