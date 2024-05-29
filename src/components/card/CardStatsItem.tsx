@@ -4,8 +4,8 @@ interface CardStatItemProps {
 }
 
 export const CardStatsItem = ({ stat, title }: CardStatItemProps) => (
-  <div>
-    <p>{stat}</p>
-    <p>{title}</p>
+  <div className='text-center text-white'>
+    <p className='mb-[2px] text-[24px] font-bold'>{stat}</p>
+    <p className='leading-[25px] tracking-[1px] opacity-60'>{title}</p>
   </div>
 );

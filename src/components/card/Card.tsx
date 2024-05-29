@@ -5,7 +5,7 @@ import { CardStats } from './CardStats';
 import { CardTitle } from './CardTitle';
 
 const Card = () => {
-  const titleText = `Get <span class="text-red-800">insights</span> that help your business grow`;
+  const titleText = `Get <span class="text-purple">insights</span> that help your business grow`;
 
   const descriptionText =
     'Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.';
@@ -13,7 +13,7 @@ const Card = () => {
   return (
     <div className='bg-bgSecondary overflow-hidden rounded-[8px]'>
       <CardImage image={Image} />
-      <div>
+      <div className='p-[32px] pt-[40px]'>
         <CardTitle text={titleText} />
         <CardDescription>{descriptionText}</CardDescription>
         <CardStats />
