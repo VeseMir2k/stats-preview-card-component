@@ -4,7 +4,7 @@ interface CardTitleProps {
 
 export const CardTitle = ({ text }: CardTitleProps) => (
   <h1
-    className='text-center text-[28px] font-bold leading-[32px] text-white'
+    className='text-[28px] font-bold leading-[32px] xl:text-[36px] xl:leading-[44px]'
     dangerouslySetInnerHTML={{ __html: text }}
   ></h1>
 );
